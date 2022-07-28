@@ -7,7 +7,7 @@ from . import _utils, _pip, _venv
 
 
 REQUIREMENTS_FILE = os.path.join(pyperformance.DATA_DIR, 'requirements.txt')
-PYPERF_OPTIONAL = ['psutil']
+PYPERF_OPTIONAL = []
 
 
 class Requirements(object):
