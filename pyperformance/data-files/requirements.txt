@@ -6,8 +6,8 @@
 #
 packaging==21.3
     # via -r requirements.in
-psutil==5.9.0
-    # via -r requirements.in
+#psutil==5.9.0
+#    # via -r requirements.in
 pyparsing==3.0.8
     # via packaging
 pyperf==2.3.1
