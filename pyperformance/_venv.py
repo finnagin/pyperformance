@@ -70,6 +70,7 @@ def parse_venv_config(lines, root=None):
         if name == 'system_site_packages':
             value = (value == 'true')
         setattr(cfg, name, value)
+    setattr(cfg, 'system_site_packages', True)
     return cfg
 
 
