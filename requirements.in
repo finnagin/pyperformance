@@ -22,4 +22,4 @@ toml
 # The list of optional dependencies is hardcoded in pyperformance/venv.py
 
 # XXX Do we still need this?
-psutil
+# psutil
