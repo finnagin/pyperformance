@@ -72,7 +72,7 @@ def create_venv(root=None, python=sys.executable, *, verbose=False):
     else:
         cleanup = (lambda: None)
     run_cmd(
-        python or sys.executable, '-m', 'venv', root,
+        python or sys.executable, '-m', 'venv', '--system-site-packages', root,
         capture=not verbose,
         onfail='raise',
         verbose=verbose,
