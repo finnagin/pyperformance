@@ -54,6 +54,9 @@ jobs:
           - os: windows-latest
             python: "3.13"
             experimental: false
+          - os: windows-11-arm
+            python: "3.13"
+            experimental: true
     steps:
     - uses: actions/checkout@v4
     - name: Set up Python ${{ matrix.python }}
